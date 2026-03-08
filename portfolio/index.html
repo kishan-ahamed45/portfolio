@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Ahamed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Using a very modern font to match the theme -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="loader">
+        <div class="loader-text">
+            <span class="loader-word">Code</span>
+            <span class="loader-word">by</span>
+            <span class="loader-word">Kishan</span>
+        </div>
+    </div>
+    <!-- Floating Capsule Navigation -->
+    <nav class="capsule-nav">
+        <a href="#home" class="nav-icon active" title="Home"><i class="fas fa-home"></i></a>
+        <a href="#about" class="nav-icon" title="About"><i class="fas fa-user"></i></a>
+        <a href="#skills" class="nav-icon" title="Skills"><i class="fas fa-layer-group"></i></a>
+        <a href="https://github.com/kishan-ahamed45" target="_blank" class="nav-icon" title="GitHub"><i
+                class="fab fa-github"></i></a>
+        <a href="#contact" class="nav-icon" title="Contact"><i class="fas fa-envelope"></i></a>
+    </nav>
+
+    <!-- Top Left Identity -->
+    <div class="site-identity">
+        © Code by Kishan
+    </div>
+
+    <!-- Top Right Subtitle -->
+    <div class="site-subtitle">
+        Passionate Software Engineer, dedicated to<br>crafting innovative backend systems and<br>web experiences.
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-image"
+            style="background-image: url('img/Gemini_Generated_Image_5sd8k35sd8k35sd8.png'); position: absolute; top:0; left:0; width:100%; height:100%; background-position: center bottom; background-size: cover; z-index: 1;">
+        </div>
+        <div class="hero-bg-text">
+            <span>Developer</span>
+            <span class="outline-text">& Engineer</span>
+        </div>
+        <div class="hero-fade-bottom"></div>
+        <a href="#about" class="scroll-down-btn"><i class="fas fa-arrow-right"
+                style="transform: rotate(45deg);"></i></a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-simple-box">
+            <h2 class="about-headline">About Me</h2>
+            <p class="about-desc">
+                I’m Kishan Ahamed, a Software Engineering undergraduate at SLIIT who enjoys building web applications
+                and learning modern development technologies.<br><br>
+                I have experience working with Java, React, Next.js, and backend frameworks such as Express.js and
+                Spring Boot. I also explore modern development tools, UI design with Figma, and AI-assisted coding tools
+                to improve productivity.<br><br>
+                I like building practical projects, experimenting with new technologies, and continuously improving my
+                development skills as I work toward becoming a professional software engineer.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Bento Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="skills-title">Skills that fuel my<br>passion</h2>
+
+        <div class="bento-grid">
+            <!-- Programming Languages -->
+            <div class="bento-card span-2">
+                <div class="bento-icons row-layout">
+                    <div class="icon-circle" style="background: rgba(227, 79, 38, 0.1); color: #e34f26;"><i
+                            class="fab fa-java"></i></div>
+                    <div class="icon-circle" style="background: rgba(247, 223, 30, 0.1); color: #f7df1e;"><i
+                            class="fab fa-js"></i></div>
+                    <div class="icon-circle" style="background: rgba(55, 118, 171, 0.1); color: #3776ab;"><i
+                            class="fab fa-python"></i></div>
+                    <div class="icon-circle" style="background: rgba(168, 185, 204, 0.1); color: #a8b9cc;"><span
+                            style="font-weight: 700;">C</span>
+                    </div>
+                </div>
+                <div class="bento-content">
+                    <h3>Programming Languages</h3>
+                    <p>Proficient in problem-solving and applying programming languages to implement efficient data
+                        structures and algorithms.</p>
+                </div>
+            </div>
+
+            <!-- Frontend -->
+            <div class="bento-card">
+                <div class="bento-icons grid-layout-2x2">
+                    <div class="icon-circle" style="background: rgba(227, 79, 38, 0.1); color: #e34f26;"><i
+                            class="fab fa-html5"></i></div>
+                    <div class="icon-circle" style="background: rgba(21, 114, 182, 0.1); color: #1572b6;"><i
+                            class="fab fa-css3-alt"></i></div>
+                    <div class="icon-circle" style="background: rgba(97, 218, 251, 0.1); color: #61dafb;"><i
+                            class="fab fa-react"></i></div>
+                    <div class="icon-circle" style="background: rgba(255, 255, 255, 0.1); color: #ffffff;"><span
+                            style="font-weight: 700;">N</span>
+                    </div>
+                </div>
+                <div class="bento-content">
+                    <h3>Front-End Development</h3>
+                    <p>Building engaging and user-friendly web interfaces using modern frameworks.</p>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="bento-card span-2">
+                <div class="bento-icons row-layout">
+                    <div class="icon-circle" style="background: rgba(0, 0, 0, 0.2); color: #fff;"><i
+                            class="fas fa-server"></i></div>
+                    <div class="icon-circle" style="background: rgba(109, 179, 63, 0.1); color: #6db33f;"><i
+                            class="fas fa-leaf"></i></div>
+                    <div class="icon-circle" style="background: rgba(255, 255, 255, 0.1); color: #ffffff;"><i
+                            class="fas fa-cogs"></i></div>
+                </div>
+                <div class="bento-content">
+                    <h3>Back-End Development</h3>
+                    <p>Developing robust server-side logic and REST APIs using Express.js and Spring Boot to power
+                        scalable applications.</p>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="bento-card">
+                <div class="bento-icons row-layout">
+                    <div class="icon-circle" style="background: rgba(0, 117, 143, 0.1); color: #00758f;"><i
+                            class="fas fa-database"></i></div>
+                    <div class="icon-circle" style="background: rgba(51, 103, 145, 0.1); color: #336791;"><span
+                            style="font-weight: 700;">Pg</span>
+                    </div>
+                    <div class="icon-circle" style="background: rgba(63, 207, 142, 0.1); color: #3fcf8e;"><span
+                            style="font-weight: 700;">S</span></div>
+                </div>
+                <div class="bento-content">
+                    <h3>Database Management</h3>
+                    <p>Designing and managing databases like MySQL and PostgreSQL to ensure efficient data storage.</p>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="bento-card span-2 tall">
+                <div class="bento-icons row-layout wrap">
+                    <div class="icon-circle" style="background: rgba(240, 80, 50, 0.1); color: #f05032;"><i
+                            class="fab fa-git-alt"></i></div>
+                    <div class="icon-circle" style="background: rgba(255, 255, 255, 0.1); color: #ffffff;"><i
+                            class="fab fa-github"></i></div>
+                    <div class="icon-circle" style="background: rgba(0, 0, 0, 0.2); color: #ffffff;"><span
+                            style="font-weight: 700;">IJ</span></div>
+                    <div class="icon-circle" style="background: rgba(248, 220, 117, 0.1); color: #f8dc75;"><i
+                            class="fas fa-cat"></i></div>
+                    <div class="icon-circle" style="background: rgba(242, 78, 30, 0.1); color: #f24e1e;"><i
+                            class="fab fa-figma"></i></div>
+                </div>
+                <div class="bento-content">
+                    <h3>Tools & Deployment</h3>
+                    <p>Proficient in version control, utilizing powerful IDEs, and designing UI mockups for seamless
+                        teamwork and project execution.</p>
+                </div>
+            </div>
+
+            <!-- AI Tools -->
+            <div class="bento-card">
+                <div class="bento-icons grid-layout-2x2">
+                    <div class="icon-circle" style="background: rgba(255, 255, 255, 0.1); color: #fff;"><i
+                            class="fas fa-robot"></i></div>
+                    <div class="icon-circle" style="background: rgba(66, 133, 244, 0.1); color: #4285f4;"><i
+                            class="fas fa-brain"></i></div>
+                    <div class="icon-circle" style="background: rgba(212, 175, 55, 0.1); color: #d4af37;"><span
+                            style="font-weight: 700;">C</span></div>
+                    <div class="icon-circle" style="background: rgba(255, 255, 255, 0.1); color: #fff;"><i
+                            class="fas fa-code"></i></div>
+                </div>
+                <div class="bento-content">
+                    <h3>AI Tools</h3>
+                    <p>Leveraging Cursor AI, Google Gemini, Claude, and GitHub Copilot to drastically improve coding
+                        productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-wrap">
+            <p class="contact-sup">That's all for me.</p>
+            <h2 class="contact-title">Got a project in mind?<br>Let's talk</h2>
+
+            <div class="contact-line">
+                <a href="mailto:kishanahamed2004@gmail.com" class="big-blue-btn">Get in touch</a>
+            </div>
+
+            <div class="contact-footer-info">
+                <div class="footer-email">
+                    <span>Email</span>
+                    <a href="mailto:kishanahamed2004@gmail.com">kishanahamed2004@gmail.com</a>
+                </div>
+                <div class="footer-phone">
+                    <span>Phone</span>
+                    <a href="tel:+94775185226">(+94) 77 518 5226</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/kishan-ahamed45" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
